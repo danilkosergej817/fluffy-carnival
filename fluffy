@@ -1,0 +1,17 @@
+            Button("AsyncOperation") {
+                model.addAsyncOperation()
+            }
+            
+            Button("DependencyOperation") {
+                model.addDependencyOperation()
+            }
+        }
+    }
+}
+
+struct OperationUsageView_Previews: PreviewProvider {
+    static var previews: some View {
+        OperationUsageView()
+    }
+}
+
